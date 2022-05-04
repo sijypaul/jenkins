@@ -4,11 +4,12 @@ public class Calc
 {
 	public static void main(String[] args) throws Exception
 	{
-		int a=20;
-		int b=2;
-		Scanner sc=new Scanner(System.in);
+		
+		
 		//System.out.print("Enter the operators: (+,-,*,/)");
 		String optr=args[0];
+		int o1=args[1];
+		int o2=args[2];
 		if(optr.equals("+"))
 		{
 		System.out.println("Sum: "+(a+b));
