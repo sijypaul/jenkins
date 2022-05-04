@@ -6,8 +6,8 @@ public class Calc
 	{
 		//System.out.print("Enter the operators: (+,-,*,/)");
 		String optr=args[0];
-		String a=args[1];
-		String b=args[2];
+		int a=args[1];
+		int b=args[2];
 
 		if(optr.equals("+"))
 		{
